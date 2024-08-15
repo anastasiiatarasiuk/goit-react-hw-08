@@ -1,0 +1,14 @@
+.goBack {
+  color: #ffff;
+  display: flex;
+  width: 65px;
+  margin: 20px;
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  text-decoration: none;
+  &:hover {
+    background: linear-gradient(90deg, #763af5 0%, #a604f2 100%);
+  }
+}

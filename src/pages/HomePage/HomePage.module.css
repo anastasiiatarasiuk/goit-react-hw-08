@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.componentsContainer {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  gap: 60px;
+}
+.searchContainer {
+  border: 1px solid #242424;
+  border-radius: 5px;
+  padding: 30px 40px;
+  width: 506px;
+  background: rgba(255, 255, 255, 0.04);
+}

@@ -1,0 +1,13 @@
+.userMenu {
+  margin: 0 auto;
+}
+.logoutBtn {
+  border-radius: 5px;
+  padding: 12px 10px;
+  background: white;
+  border-style: none;
+  cursor: pointer;
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 500;
+}

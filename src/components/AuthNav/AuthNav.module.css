@@ -1,0 +1,11 @@
+.links {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  text-decoration: none;
+  &:hover {
+    color: rgb(243, 238, 240);
+  }
+}
