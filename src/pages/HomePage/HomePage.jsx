@@ -7,6 +7,7 @@ const HomePage = () => {
       <p className={s.subtitle}>
         This site helps you conveniently store and organize your contacts.
       </p>
+      <p className={s.subtitle}>To get started, Register or Log in</p>
     </>
   );
 };

@@ -25,7 +25,7 @@ const ContactsPage = () => {
         <div className={s.searchContainer}>
           <SearchBox />
           <ContactList />
-          {isLoading && <h1>Loading...</h1>}
+          {isLoading && <h1 className={s.loading}>Loading...</h1>}
           {isError && <h1>Something went wrong!</h1>}
         </div>
       </div>
