@@ -1,10 +1,12 @@
 .links {
   display: flex;
-  gap: 40px;
+  gap: 10px;
 }
 
 .link {
   text-decoration: none;
+  font-size: 14px;
+  color: rgba(220, 182, 255, 0.899);
   &:hover {
     color: rgb(243, 238, 240);
   }
@@ -12,4 +14,17 @@
 
 .active {
   color: rgb(243, 238, 240);
+}
+@media screen and (min-width: 768px) {
+  .links {
+    gap: 20px;
+  }
+  .link {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .link {
+    font-size: 25px;
+  }
 }
