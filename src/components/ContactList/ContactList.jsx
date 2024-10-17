@@ -19,7 +19,7 @@ const ContactList = () => {
           </li>
         ))
       ) : (
-        <h2>No contacts!</h2>
+        <h2 className={s.noContacts}>No contacts!</h2>
       )}
     </ul>
   );
